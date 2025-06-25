@@ -1,0 +1,2 @@
+/opt/spark-3.5.0-bin-hadoop3/bin/spark-shell --driver-class-path /root/Documents/Spark/Drivers/mssql-jdbc-12.2.0.jre11.jar --jars /root/Documents/Spark/Drivers/mssql-jdbc-12.2.0.jre11.jar -i /root/Documents/Spark/spark-sales.scala
+
