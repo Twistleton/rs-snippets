@@ -1,0 +1,135 @@
+
+------------------------------------------------------------------------
+CC|EP0002 - Names
+=================
+
+Names are not just for your convenience. They are a tool, a powerful
+tool, that you can use to communicate with others. So choose your names
+well and thoughtfully. Names should communicate your intent.
+
+Create names that people can pronounce, that people can say.
+
+The longer the scope of the variable, the longer the name of the
+variable. But, variables in very short scopes should have very
+short names.
+
+Variables with short little scopes can be abbreviated down even just to
+one letter.
+
+Variable names should be short, even one letter, if they're in a tiny
+little scope. But variable names should be long if they're in a big long
+scope.
+
+So remember, variables that have long scopes should have long names.
+
+Oddly enough, functions and classes follow the opposite rule. That
+longer the scope, the shorter the function or class name should be.
+
+Functions that are called from many places, and have big long scopes,
+should have nice, short, convenient names.
+
+On the other hand, functions that have long, highly visible scopes,
+should have short, convenient names, whereas functions that are private,
+they've got short little scopes, should have long, explanatory names.
+
+And the same goes for classes. Classes that have long, highly-visible
+scopes should have nice, short, convenient names. Private classes that
+are buried inside of a tiny little scope, well, they can have long,
+explanatory names.
+
+And then watch out for those derived classes, because they've got long
+scopes, but you start adding adjectives to them, and they can get longer
+and longer. So be careful of that.
+
+Give classes, noun names. Give variables nouns. Give methods verb names.
+If they're Booleans, make them predicates.
+
+Functions follow the opposite rule. Function names should be short if
+they've got a long scope. Function names should be long and descriptive,
+if they have a short scope.
+
+And the same rule goes for classes. Nice, short names for public
+classes. Longer names for private classes in tiny scopes.
+
+minuscule|winzige
+bounce off|abprallen
+sine|Sinuswelle
+well|Brunnen|Quelle|Bohrloch
+gyration|Drehung|Drehbewegung
+to fault|etwas bemängeln
+bettered|verbessert
+to deserve|verdient
+stove|Herd
+apparently|anscheinend
+consecutive|fortlaufend
+ordinal|Ordnungszahl
+evocative|bewegend|anregend|aufrüttelnd
+honorable|ehrenwert
+heyday|Blütezeit|Glanzzeit
+gratuitous|grundlos|überflüssig
+cherry picker|Hebebühne
+reprimand|Rüge|Abmahnung
+
+------------------------------------------------------------------------
+CC|EP0003 - Functions
+=====================
+
+The first rule of functions: they should be small. The second rule of
+functions: they should be smaller than that.
+
+Four lines is OK, maybe five. Six, OK. 10 is way too big.
+
+A function should do one thing, it should do it well, and it should do
+it only.
+
+And all functions have well-chosen, highly descriptive names, that
+tell you what the function does.
+
+And functions in a small scope should have long, descriptive names.
+
+
+You continue to extract functions until you cannot extract any more,
+than the runction do one thing.
+
+
+quibble|Spitzfindigkeit
+object|Gegenstand|Ding
+standoff|Patt|Unentschieden
+discharge|Entladung
+to fog|vernebeln|trüben
+sour|sauer|mürrisch
+staggering|atemberaubend|umwerfend
+to cram|stopfen|pauken|vollstopfen
+signpost|Wegzeiger
+frighten|erschrecken
+primal|ursprünglich|grundlegend
+to scale|skalieren|erklimmen
+little divot of code|kleine Codeschnipsel
+bewilded|verblüfft|verwirrt
+sabretooth|Säbelzahntiger
+pig sty|Schweinstall
+to insult|beleidigen
+injury|Verletzung
+demise|Ableben|ableben
+to reassert|bekräfigen|wieder behaupten
+drawer|Schublade
+to trample|trampeln|zertrampeln
+scatter|streuen|verstreuen
+worrisome|bedenklich|lästig|beunruhigend
+rude|unhöflich|grob|unverschämt
+penny-wise|klugscheißerisch
+pound foolish|strohdumm|töricht
+to weave|weben
+gob of goop|Schleimklumpen|Matschklumpen
+to expose|entblößen|entdecken|aufgeben
+indiscriminately|wahllos
+cruft|Schrott|überflüssiger Müll
+subtle|fein|dünn|scharf
+fuzzy|unscharf
+undesirable|unerwünscht
+crude|Dreck
+envy|Neid
+derivative|Ableitung
+to drag|ziehen
+smeared out|verschmiert
+coon|Waschbär

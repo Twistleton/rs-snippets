@@ -1,0 +1,7 @@
+- Kotlin in Action, Second Edition by Roman Elizarov, Svetlana Isakova, Sebastian Aigner
+
+- Functional Programming in Kotlin by Runar Bjarnason, Paul Chiusano and Marco Vermeulen
+
+- RocktheJVM - https://rockthejvm.com/courses/the-kotlin-bundle
+
+- KT Academy - Marcin Moskała - https://kt.academy/

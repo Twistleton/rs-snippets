@@ -1,0 +1,1 @@
+def makeArray(n: Int): Array[Int] = (1 to n).flatMap(x => List.fill(x)(x)).toArray

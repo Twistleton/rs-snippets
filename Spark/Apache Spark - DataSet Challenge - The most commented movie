@@ -1,0 +1,30 @@
+import org.apache.spark.sql.types._
+
+case class Movie(movieID: Int, title: String)
+case class Review(userID: Int, movieID: Int, rating: Int)
+
+val movieSchema = new StructType().add("movieID", IntegerType, nullable=true).add("title", StringType, nullable=true)
+val reviewSchema = new StructType().add("userID", IntegerType, nullable=true).add("movieID", IntegerType, nullable=true).add("rating", IntegerType, nullable=true)
+
+val movieDS  = spark.read.schema(movieSchema).option("delimiter","|").csv("file:///C:/Users/speerro/Documents/IdeaProjects/SparkScalaCourse/SparkScalaCourse/data/ml-100k/u.item").as[Movie]
+val ratingDS = spark.read.schema(reviewSchema).option("delimiter","\t").csv("file:///C:/Users/speerro/Documents/IdeaProjects/SparkScalaCourse/SparkScalaCourse/data/ml-100k/u.data").as[Review]
+
+movieDS.filter(movieDS("title").contains("Blue")).show()
+
+movieDS.createOrReplaceTempView("movie")
+ratingDS.createOrReplaceTempView("rating")
+
+val blue = spark.sql("select * from movie where title like 'Blue%'")
+
+// Join movie and rating
+val result = spark.sql("select movie.movieID, movie.title, count(*) from movie, rating where movie.movieID = rating.movieID group by movie.movieID, movie.title order by 3 desc")
+
+// show all rows
+result.show(result.count().toInt)
+
+// show text fields in full
+spark.sql("select * from movie where title like '%Gromit%'").show(20, false)
+
+val result4Gromit = spark.sql("select movie.movieID, movie.title, count(*) from movie, rating where movie.movieID = rating.movieID and movie.title like '%Gromit%' group by movie.movieID, movie.title order by 3 desc")
+
+result4Gromit.show(20, false)
