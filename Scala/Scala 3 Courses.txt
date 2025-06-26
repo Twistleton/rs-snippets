@@ -1,0 +1,5 @@
+https://github.com/rockthejvm
+
+https://alvinalexander.com/video-course/advanced-scala-3/introduction/
+
+https://github.com/typelevel/sbt-tpolecat

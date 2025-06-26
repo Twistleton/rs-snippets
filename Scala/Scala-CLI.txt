@@ -1,0 +1,5 @@
+https://scala-cli.virtuslab.org/
+
+// Picking the Scala version for a scala-CLI session
+
+scala-cli repl --scala 2.13.12

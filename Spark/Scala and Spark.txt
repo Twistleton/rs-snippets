@@ -1,0 +1,19 @@
+// Spark with Scala Course
+https://www.youtube.com/playlist?list=PLeEh_6coH9EpIwsiNiDCW0V-UjNZElF0d
+
+## DataSets
+    https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017?resource=download
+
+df.printSchema()
+
+## build.sbt
+
+%% receives the correct Scala Version for the dependency
+
+## DataFrame/DataSet
+
+type DataFrame = DataSet[Row]
+
+
+// Foundations of Functional Programming in Scala
+https://www.youtube.com/watch?v=OdPaWmRnAc4&list=PLiYD0LWExCDkXGpYRY3WjNscDfhe4D0ND
