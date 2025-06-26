@@ -1,0 +1,11 @@
+select a.ordOrderNo AS [Order.No]
+     , b.bomtID     AS [Order.Id]
+from dbo.Orders a
+   , dbo.OrderLineProducts b
+ where a.ordID = b.ordID
+    and exists (select pdID from Product.Products where Products.pdID = b.pdID)
+    and a.ordOrderNo = '345'
+	FOR JSON PATH,
+		ROOT('Orders'),
+		INCLUDE_NULL_VALUES
+GO

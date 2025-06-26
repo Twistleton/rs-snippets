@@ -1,0 +1,13 @@
+Python.org
+
+	https://www.python.org/
+
+
+Github
+
+	https://github.com/reuven/Oreilly-2024-autumn-python
+
+
+Google Colab
+
+	https://colab.research.google.com/
